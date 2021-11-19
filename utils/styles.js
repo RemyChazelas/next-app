@@ -7,7 +7,14 @@ const useStyles = makeStyles({
             color: '#ffffff',
             marginLeft: 10,
         },
-    }
+    },
+    main: {
+        minHeight: '80vh',
+    },
+    footer: {
+        marginTop: 10,
+        textAlign: 'center',
+    },
 })
 
 export default useStyles;

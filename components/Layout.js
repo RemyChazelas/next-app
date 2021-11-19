@@ -16,15 +16,15 @@ export default function Layout({ children }) {
             <Head>
                 <title>next ecom</title>
             </Head>
-            <AppBar position='static'>
+            <AppBar position='static' className={classes.navbar}>
                 <Toolbar>
                     <Typography>ecomm</Typography>
                 </Toolbar>
             </AppBar>
-            <Container>
+            <Container className={classes.main}>
                 {children}
             </Container>
-            <footer>
+            <footer className={classes.footer}>
                 <Typography>
                     all right reserved. next ecom
                 </Typography>
